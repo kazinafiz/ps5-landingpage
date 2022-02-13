@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<title>PS 5 Website Landing Page</title>
+</head>
+<body>
+<section class="banner">
+	<header>
+		<a href="#" class="logo">PlayStation 5</a>
+		<div class="toggle" onclick="toggle()"; ></div>
+	</header>
+	<div class="content">
+		<div class="contentBx">
+			<h2> PS 5<br> DuelSense </h2>
+			<p>
+				Get a perfected pink edition custom PS5 controller now. With our pink edition controllers, you will get a brand new pink PS5 controller that will blow your mind. Packed with powerful features and unique and colourful PS5 designs.
+			</p>
+			<a href="#">Buy Now &#8594;</a>
+		</div>
+		<div class="imgBx">
+			<img src="playstation-5-dualsense-ps5-custom-controller-pink-edition_625x625.png">
+		</div>
+	</div>
+	<ul class="sci">
+		<li><a href="#"><img src="facebook.png"></a></li>
+		<li><a href="#"><img src="twitter.png"></a></li>
+		<li><a href="#"><img src="instagram.png"></a></li>
+	</ul>
+	<ul class="menu">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Products</a></li>
+		<li><a href="#">Store</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</section>
+
+<script type="text/javascript">
+	function toggle(){
+		const toggle = document.querySelector('.toggle');
+		const banner = document.querySelector('.banner');
+		toggle.classList.toggle('active')
+		banner.classList.toggle('active')
+	}
+</script>
+</body>
+</html>
